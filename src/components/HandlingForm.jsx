@@ -28,7 +28,7 @@ export default function HandlingForm() {
       <button onClick={handleSubmit}>Submit</button>
       {setData.name && (
         <p>
-          Name:{data.name},Email:{data.email}
+          Name:{data.name}    Email:{data.email}
         </p>
       )}
     </div>

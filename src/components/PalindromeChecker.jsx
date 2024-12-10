@@ -6,7 +6,8 @@ function PalindromeChecker() {
 
     const handleCheck =()=>{
         const reverseText =text.split('').reverse().join('');
-       {text === reverseText ?setResultIs('Its a Palindrome!') : setResultIs('Not a Palindrome')}
+       {text === reverseText ? (
+        setResultIs('Its a Palindrome!')) : (setResultIs('Not a Palindrome'))}
     }
   return (
     <div>

@@ -10,6 +10,7 @@ function ColorChanger() {
   return (
     <div  style={{ backgroundColor: bgColor, height: "50vh" }}>
       <button onClick={onChanger}>Change Background Color</button>
+      
     </div>
   )
 }

@@ -14,7 +14,7 @@ const handleAdd =() =>{
 <input type="number" value={num1} placeholder="Enter Number" onChange={(e) =>setNum1(e.target.value)}/>
 <input type="number" value={num2} placeholder="Enter Number" onChange={(e) =>setNum2(e.target.value)}/>
 <button onClick={handleAdd}>Add</button>
-<p>Resul: {result}</p>
+<p>Result: {result}</p>
   </div>
   )
 }

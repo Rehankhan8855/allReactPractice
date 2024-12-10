@@ -6,7 +6,14 @@ function ConditionalRendering() {
     <div>
       <h2>Conditional Rendering</h2>
       
-   {isLoggedIn ? <h1>Welcome BAck!</h1>:<button onClick={()=>setIsLoggedIn(true)}>Log in</button>}
+   {isLoggedIn ? (
+    <div>
+      <h1>Welcome BAck!</h1>
+      <button onClick={() =>setIsLoggedIn(false)}>Log Out</button>
+    </div>
+   ):(
+    <button onClick={() =>setIsLoggedIn(true)}>Log In</button>
+   )}
       
     </div>
   )
