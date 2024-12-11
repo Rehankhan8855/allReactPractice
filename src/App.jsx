@@ -9,6 +9,9 @@ import CharacterCounter from './components/CharacterCounter'
 import RandomNumber from './components/RandomNumber'
 import AddMultiple from './components/AddMultiple'
 import ColorChanger from './components/ColorChanger'
+import FilterList from './components/FilterList'
+import SortList from './components/SortList'
+import ApiDataFetching from './components/ApiDataFetching'
 
 function App() {
   
@@ -24,6 +27,9 @@ function App() {
     <RandomNumber />
     <AddMultiple />
     <ColorChanger />
+    <FilterList />
+    <SortList />
+    <ApiDataFetching />
     </>
   )
 }
